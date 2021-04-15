@@ -74,7 +74,7 @@ pub use actix_support::DIActixHandler;
 pub use {
     dependency::Dependency,
     resolver::Resolver,
-    service_provider::ServiceProvider,
+    service_provider::{ServiceProvider, EmptyServiceProvider},
     teloc_macros::{inject, Dependency},
 };
 
